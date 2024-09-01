@@ -1,0 +1,29 @@
+#questionType,
+#questionFileSelect {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#questionType:hover,
+#questionFileSelect:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+#questionsDownload {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+#questionsDownload:hover {
+  color: #0056b3;
+}
